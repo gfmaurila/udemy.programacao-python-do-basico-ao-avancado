@@ -1,0 +1,77 @@
+
+LEIA-ME: COMO USAR ARQUIVOS .ipynb (Jupyter Notebook)
+
+==========================================
+O que é um arquivo .ipynb?
+==========================================
+- Um arquivo .ipynb é um "Jupyter Notebook", usado para escrever e executar código Python em blocos (células).
+- Ideal para estudo, testes, tutoriais e visualização interativa.
+
+==========================================
+Como executar um .ipynb (4 opções)
+==========================================
+
+1. JUPYTER NOTEBOOK LOCAL (RECOMENDADO)
+------------------------------------------
+1. Instale Jupyter:
+   pip install notebook
+
+2. Navegue até a pasta onde está o arquivo:
+   cd /caminho/da/pasta
+
+3. Execute:
+   jupyter notebook
+
+4. Seu navegador será aberto automaticamente. Clique no arquivo desejado (.ipynb).
+
+2. PYCHARM PROFESSIONAL
+------------------------------------------
+- Basta abrir o arquivo normalmente no PyCharm (somente na versão Professional).
+- Você verá botões ▶️ ao lado das células para executar.
+
+3. GOOGLE COLAB (VERSÃO ONLINE DO JUPYTER)
+------------------------------------------
+1. Acesse: https://colab.research.google.com
+2. Clique em "Upload" e selecione o arquivo .ipynb
+3. Execute as células com o botão ▶️
+
+4. VS CODE COM EXTENSÃO JUPYTER
+------------------------------------------
+1. Instale o Visual Studio Code
+2. Instale a extensão "Jupyter" na loja de extensões
+3. Abra o arquivo .ipynb diretamente e execute as células
+
+==========================================
+Quando usar arquivos .ipynb?
+==========================================
+✔️ Aprendizado de Python passo a passo  
+✔️ Testes interativos e visualização de dados  
+✔️ Criação de tutoriais ou documentação  
+⚠️ Para projetos maiores ou desenvolvimento final, prefira scripts .py
+
+==========================================
+Dica Final:
+==========================================
+Você pode converter arquivos .ipynb em .py no próprio Jupyter ou PyCharm, se quiser reutilizar como script.
+
+Aproveite para estudar e experimentar! 🚀
+
+
+
+
+---
+
+
+
+IDE de desenvolvimento
+
+    -> PyCharm
+        -> https://www.jetbrains.com/pycharm/
+        -> https://www.jetbrains.com/pycharm/download/?section=windows  - PyCharm Community Edition
+        -> https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=windows&code=PCC
+
+
+
+
+
+

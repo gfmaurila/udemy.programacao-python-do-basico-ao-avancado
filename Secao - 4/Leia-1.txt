@@ -1,0 +1,51 @@
+
+INSTRUÇÕES DE EXECUÇÃO DOS EXEMPLOS PYTHON
+
+==========================================
+1. CADERNOS JUPYTER (.ipynb)
+==========================================
+
+PRÉ-REQUISITOS:
+- Ter o Python instalado
+- Instalar Jupyter Notebook com:
+    pip install notebook
+
+COMO EXECUTAR:
+- No terminal, navegue até a pasta dos arquivos e execute:
+    jupyter notebook
+- O navegador será aberto. Clique no arquivo .ipynb que deseja abrir.
+- Use Shift + Enter para rodar cada célula, ou clique no botão ▶️.
+
+EXEMPLOS:
+- exemplos_strings.ipynb
+- array_strings_avancado.ipynb
+- dicionarios_arquivos_regex.ipynb
+- csv_pandas_html_scraping.ipynb
+- web_scraping_api_visualizacao.ipynb
+
+==========================================
+2. SCRIPTS PYTHON (.py)
+==========================================
+
+COMO EXECUTAR:
+- No terminal, execute o comando:
+    python nome_do_arquivo.py
+
+EXEMPLOS:
+    python exemplos_strings.py
+    python exemplos_array_strings.py
+
+==========================================
+AMBIENTES RECOMENDADOS:
+==========================================
+- Jupyter Notebook: aprendizado interativo
+- VS Code: depuração e desenvolvimento
+- Google Colab: Jupyter no navegador, sem instalar nada
+- Terminal: rápido para scripts simples
+
+==========================================
+DICA EXTRA:
+Você pode organizar todos os arquivos em uma pasta e usar:
+    jupyter notebook
+ou abrir diretamente com:
+    code nome_do_arquivo.py  (se usar VS Code)
