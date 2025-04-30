@@ -1,0 +1,69 @@
+
+📌 DICAS DE COMO TRABALHAR COM FRAMEWORKS WEB EM PYTHON
+
+---
+
+🔹 1. FLASK - Framework Web Leve e Flexível
+
+📘 O que é:
+Flask é um microframework que permite criar APIs e sites rapidamente. Simples, minimalista e ideal para projetos pequenos e médios.
+
+📄 Exemplo:
+from flask import Flask
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "Olá, Flask!"
+
+app.run(debug=True)
+
+📌 Para rodar:
+1. Instale com: pip install flask
+2. Execute: python nome_do_arquivo.py
+
+---
+
+🔹 2. DJANGO - Framework Web Robusto e Completo
+
+📘 O que é:
+Django é um framework full-stack que oferece autenticação, ORM, painel administrativo, segurança, tudo pronto para produção.
+
+📄 Comandos básicos:
+django-admin startproject meuprojeto
+cd meuprojeto
+python manage.py runserver
+
+📄 Exemplo de view:
+from django.http import HttpResponse
+
+def minha_view(request):
+    return HttpResponse("Olá, Django!")
+
+📌 Para instalar:
+pip install django
+
+---
+
+🔹 3. WEB2PY - Framework Simples com Interface Web Integrada
+
+📘 O que é:
+Web2py é um framework completo, com editor web embutido, migrations automáticas e bom para aplicações simples.
+
+📄 Exemplo de controller:
+def index():
+    return dict(mensagem="Olá, Web2py!")
+
+📌 Para instalar:
+pip install web2py
+
+📌 Rodar:
+python web2py.py
+
+---
+
+💡 DICAS FINAIS:
+- Use **Flask** para projetos pequenos e APIs REST.
+- Use **Django** para projetos grandes com banco de dados e autenticação.
+- Use **Web2py** para protótipos simples com editor embutido.
+

@@ -1,0 +1,64 @@
+
+📌 DICAS DE COMO TRABALHAR COM AUTOMATION EM PYTHON
+
+---
+
+🔹 1. SELENIUM (Automação de Navegador Web)
+
+📘 O que é:
+Selenium é uma ferramenta que permite automatizar ações em navegadores (Chrome, Firefox, etc). Muito usado para testes web e scraping.
+
+📄 Exemplo:
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+
+navegador = webdriver.Chrome()
+navegador.get("https://google.com")
+navegador.find_element(By.NAME, "q").send_keys("Python Selenium")
+navegador.find_element(By.NAME, "q").submit()
+
+navegador.quit()
+
+---
+
+🔹 2. PYTEST (Testes Automatizados Simples e Poderosos)
+
+📘 O que é:
+Pytest é um framework para escrever testes com menos código e mais legibilidade. Suporta fixtures, parametrização e plugins.
+
+📄 Exemplo:
+def soma(a, b):
+    return a + b
+
+def test_soma():
+    assert soma(2, 3) == 5
+    assert soma(-1, 1) == 0
+
+📌 Para rodar: `pytest nome_do_arquivo.py`
+
+---
+
+🔹 3. UNITTEST (Testes com Biblioteca Padrão)
+
+📘 O que é:
+Unittest é a biblioteca de testes padrão do Python, baseada em classes.
+
+📄 Exemplo:
+import unittest
+
+def multiplica(a, b):
+    return a * b
+
+class TesteMultiplicacao(unittest.TestCase):
+    def test_basico(self):
+        self.assertEqual(multiplica(2, 3), 6)
+        self.assertEqual(multiplica(0, 10), 0)
+
+if __name__ == '__main__':
+    unittest.main()
+
+---
+
+💡 DICA FINAL:
+Combine Selenium + Pytest para testes web automatizados de alta qualidade. Use `unittest` quando quiser compatibilidade direta com ferramentas e bibliotecas padrão do Python.
+
