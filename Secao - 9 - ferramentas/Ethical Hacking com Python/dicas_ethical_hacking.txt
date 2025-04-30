@@ -1,0 +1,59 @@
+
+📌 DICAS DE COMO USAR PYTHON PARA ETHICAL HACKING
+
+---
+
+🔹 1. SCAPY - Manipulação e Análise de Pacotes de Rede
+
+📘 O que é:
+Scapy é uma biblioteca poderosa para criação, envio e análise de pacotes de rede. Permite fazer sniffing, spoofing, traceroute, etc.
+
+📄 Exemplo: Ping com Scapy
+from scapy.all import *
+
+resposta = sr1(IP(dst="8.8.8.8")/ICMP(), timeout=1)
+if resposta:
+    print("Host está ativo!")
+else:
+    print("Sem resposta.")
+
+📌 Instalação: pip install scapy
+
+---
+
+🔹 2. FLOWGREP - Análise de Tráfego com Padrões
+
+📘 O que é:
+Flowgrep é uma ferramenta que permite aplicar expressões regulares em pacotes de rede capturados via tcpdump ou tshark.
+
+📄 Exemplo de uso (linha de comando):
+tcpdump -i eth0 -l -n | flowgrep --pattern="HTTP"
+
+📌 Instalação:
+sudo apt install flowgrep
+
+*Observação: flowgrep é uma ferramenta Linux em shell. Pode ser combinada com scripts Python que usam `subprocess`.
+
+---
+
+🔹 3. SUBBRUTE - Enumeração de Subdomínios (Brute Force)
+
+📘 O que é:
+Subbrute é uma ferramenta de força bruta para descobrir subdomínios a partir de dicionários DNS.
+
+📄 Exemplo de uso (terminal):
+python subbrute.py example.com
+
+📌 Repositório:
+https://github.com/TheRook/subbrute
+
+📌 Requisitos:
+- Python 2.7 ou 3.x
+- Lista de subdomínios (wordlist)
+
+---
+
+💡 DICA FINAL:
+Combine ferramentas como Scapy com scripts personalizados em Python para testes de penetração éticos. Use Subbrute e Flowgrep como parte de uma auditoria mais completa.
+
+Lembre-se: **somente use essas ferramentas em ambientes autorizados e para fins educacionais ou de segurança legalizada**.
