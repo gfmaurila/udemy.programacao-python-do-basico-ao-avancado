@@ -1,0 +1,52 @@
+
+📘 GUIA DA SEÇÃO 10 - REPL.IT (REPLIT)
+
+---
+
+🔹 44. Conhecendo o Replit
+
+O que é?
+Replit (antigo Repl.it) é uma plataforma online gratuita que permite escrever, executar e compartilhar código diretamente do navegador.
+
+Vantagens:
+- Nada para instalar no PC
+- Roda Python e outras linguagens
+- Interface simples e intuitiva
+- Compartilhamento fácil com links
+
+---
+
+🔹 45. Navegando no Replit
+
+Principais áreas da interface:
+- 🖊️ Editor de Código: onde você escreve o código Python.
+- ▶️ Botão “Run”: executa seu código automaticamente.
+- 🖥️ Console: mostra saídas `print()` e mensagens de erro.
+- 📁 Painel de Arquivos: onde você pode criar e gerenciar arquivos do seu projeto.
+
+Dica:
+Use `main.py` como seu arquivo principal. Ele é executado automaticamente.
+
+---
+
+🔹 46. Como o Python executa seu código
+
+Etapas do Replit ao rodar seu script:
+1. Seu código Python é salvo automaticamente.
+2. Ao clicar em "Run", o Replit envia esse código para um servidor remoto.
+3. O interpretador Python (3.x) executa o código linha por linha.
+4. O resultado da execução aparece no console.
+
+Dica:
+Use `print()` para verificar valores e identificar erros durante a execução no Replit.
+
+---
+
+✅ Replit é ideal para:
+- Estudar Python rapidamente
+- Testar trechos de código
+- Compartilhar exercícios com professores ou colegas
+- Trabalhar em grupo com a função de colaboração
+
+🌐 Acesse: https://replit.com/
+
