@@ -70,6 +70,95 @@ IDE de desenvolvimento
         -> https://www.jetbrains.com/pycharm/download/?section=windows  - PyCharm Community Edition
         -> https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=windows&code=PCC
 
+https://www.anaconda.com/products/navigator
+
+
+
+
+Ciêcias de dados
+CMD
+    pip install pandas
+    pip install numpy
+    pip install matplotlib
+    jupyter notebook
+        http://localhost:8888/tree
+        http://localhost:8888/notebooks/Untitled.ipynb
+
+
+
+Pegando dados para fazer projeto se ciencia de dados
+
+
+Download do DataSet
+Olá,
+
+Faça por gentileza o download dos Datasets para serem utilizados durante o curso.
+
+Lembre-se que você pode tanto utilizar os DataSets do site Kaggle ou os que estou disponibilizando aqui. Fica a seu critério :)
+
+Obrigado
+
+Andre
+
+
+
+Recursos para esta aula
+
+Pegando dados para data science
+    https://www.udemy.com/course/programacao-python-do-basico-ao-avancado/learn/lecture/42562250#overview
+    https://www.kaggle.com/
+    https://www.kaggle.com/datasets
+
+https://pandas.pydata.org/docs/
+
+---------------------------------------
+
+
+
+
+Aviso Importante
+Olá,
+
+Fico muito feliz em ter você aqui no curso e espero que aproveite ao máximo todas as aulas.
+
+Nesta sessão do GNS3 eu tentei meu melhor em mostrar como a instalação é realizada, mas infelizmente o resultado depende totalmente do seu PC e do processo de instalação.
+
+Por este motivo, eu não consigo dar suporte nessa parte do curso.
+
+Se algo não funcionar nessa etapa de instalação do GNS3, por gentileza procure no Google pois existem vários posts dos erros mais comuns.
+
+Para ajudar, segue abaixo o passo a passo diretamente do site GNS3:
+
+https://docs.gns3.com/docs/getting-started/installation/windows/
+
+Abs e sucesso!
+
+Andre
+
+
+
+----------------------------------------------------
+
+
+
+Download da IOS
+Olá,
+
+Antes de iniciar a próxima aula, faça o download das duas vIOS utilizando os links abaixo:
+
+vIOS Layer 2 - https://drive.google.com/drive/folders/1QgjSZbv5qusM8QYXTFfe0EcLL3gVWR5p?usp=sharing
+
+vIOS Layer 3 - https://drive.google.com/drive/folders/16LjtlL3I1-WC-VoetICDRHulAJzmm5lF?usp=sharing
+
+
+
+Aproveite :)
+
+
+
+
+-------------------------------------------------------------------
+
 
 
 
